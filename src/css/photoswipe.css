@@ -217,6 +217,7 @@ and show (for example fade in) when PhotoSwipe is opened
   border: 0;
   box-shadow: none;
   opacity: 0.8;
+  appearance: none;
   -webkit-appearance: none;
   -webkit-touch-callout: none;
 }
