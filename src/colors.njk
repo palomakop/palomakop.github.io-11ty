@@ -3,6 +3,7 @@ permalink: /colors.json
 eleventyExcludeFromCollections: true
 ---
 {
+  "custom": {{ custom_colors | dump(2) | safe }},
   "css": {{ css_colors | dump(2) | safe }},
   "frontmatter": {{ collections.frontmatterColors | dump(2) | safe }}
 }
